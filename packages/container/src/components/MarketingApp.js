@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from 'react';
 
 export default () => {
   const ref = useRef(null);
-  console.log('hello')
+  console.log('hello moto')
   useEffect(() => {
     mount(ref.current);
   });
